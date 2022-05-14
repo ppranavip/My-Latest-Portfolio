@@ -1,0 +1,50 @@
+/* Home */
+#home{
+    height: 820px;
+}
+.headings{
+    font-size: 1.7rem;
+}
+
+/* About */
+#pic img{
+width: 260px;
+height: 350px;
+margin-right: 35px;
+}
+#intro h2{
+    font-size: 1.5rem;
+}
+
+/* portfolio */
+.gallery img{
+    width: 275px;
+    height: 150px;
+    margin: 10px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 302px;
+    height: 450px;
+    border: 1px solid black;
+    margin: 35px;
+    align-items: center;
+    text-align: justify;
+    padding: 50px;
+    border-radius: 15px;
+    background: linear-gradient(to top, blueviolet 50%,white 50%);
+    background-size: 100% 200%;
+    transition: all .8s;
+  }
+
+/* Contact */
+.input{
+    width: 80%;
+}
+#msg{
+    width: 70%;
+}
+#send{
+    width: 20%;
+}
